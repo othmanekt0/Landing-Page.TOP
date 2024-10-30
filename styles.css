@@ -1,0 +1,158 @@
+body {
+  font-family: "Roboto";
+  margin: 0;
+}
+
+.hero {
+  background-color: #1f2937;
+  color: #f9faf8;
+  padding: 0px 50px 50px 50px;
+}
+
+ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+
+.flex1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+.main-text {
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 0;
+}
+
+.secondary-text {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+button {
+  background-color: #3582f6;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+  padding: 10px 30px;
+  color: #f9faf8;
+  font-weight: bold;
+  border: none;
+}
+
+.flex2 {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  flex-shrink: 0;
+}
+
+.flex3 {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  padding: 50px;
+  flex-shrink: 0;
+}
+
+.title-infos {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+}
+
+.flex5 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flex4 {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  text-align: center;
+}
+
+.box {
+  border: 2px solid #3582f6;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.infos {
+  margin-top: 50px;
+  margin-bottom: 200px;
+}
+
+.quote {
+  background-color: #e5e7eb;
+  padding: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+.quote-text {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: lighter;
+  font-style: italic;
+}
+
+.writer {
+  font-weight: bold;
+}
+
+.flex7 {
+  color: #f9faf8;
+  padding: 20px 50px;
+  background-color: #3582f6;
+  margin: 150px;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 140px;
+}
+
+.flex6 {
+  display: flex;
+  flex-direction: column;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.action-title {
+  margin-bottom: 0;
+}
+
+.sign-up {
+  border: 2px #e5e7eb solid;
+}
+
+.footer {
+  background-color: #1f2937;
+  color: #f9faf8;
+  margin-bottom: 0;
+  text-align: center;
+  padding: 30px 30px;
+}
